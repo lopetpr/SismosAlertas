@@ -1,4 +1,3 @@
-# SismoAlertas 🚨
 
 App iOS para brigadas de emergencia post-sismo. Gestión de familias afectadas, tareas de brigada y recursos disponibles.
 
@@ -34,7 +33,7 @@ enum FamilyStatus: String, Codable, CaseIterable {
 **Justificación:** Permite usar SwiftUI como punto de entrada (`@main`) mientras toda la navegación es UIKit nativo. El tab de Resumen usa `UIHostingController` con SwiftUI puro — demuestra interoperabilidad bidireccional.
 
 ### 5. Filtro con UISegmentedControl en Tareas
-
+ggtgt
 **Justificación:** Solución nativa de UIKit para filtrar por estado. No requiere librerías externas. El filtro opera sobre el array en memoria — respuesta inmediata sin queries.
 
 ### 6. Datos precargados (Sample Data)
@@ -63,3 +62,11 @@ SwiftUI/         → ResumenView (dashboard animado)
 - Xcode 26+
 - iOS 26.4+
 - Sin dependencias externas
+## Imagenes
+<img width="712" height="1600" alt="WhatsApp Image 2026-05-08 at 3 26 42 PM" src="https://github.com/user-attachments/assets/804f4fad-ee92-4d9e-9d7e-b513b2bbd34b" />
+<img width="779" height="1600" alt="image" src="https://github.com/user-attachments/assets/db039bd0-14ef-47e5-8060-cb2854109a1a" />
+<img width="836" height="1600" alt="image" src="https://github.com/user-attachments/assets/556a3175-ef25-4d48-97a8-4d642b10d3e6" />
+<img width="900" height="1600" alt="image" src="https://github.com/user-attachments/assets/198367c5-dc3d-4650-8212-8cf12852e49b" />
+
+
+  
