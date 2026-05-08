@@ -1,21 +1,12 @@
-//
-//  ContentView.swift
-//  SismoAlertas
-//
-//  Created by huber lope on 8/05/26.
-//
+// ContentView.swift — Not used. App uses MainTabBarController via SismoAlertasApp.swift
+// Kept for Xcode file sync compatibility.
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        MainTabBarRepresentable()
+            .ignoresSafeArea()
     }
 }
 
